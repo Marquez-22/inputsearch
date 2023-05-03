@@ -1,0 +1,24 @@
+.inputsearch{
+    background: white;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+
+    &.mostrarInput{
+        input{
+            display: block;
+        }
+    }
+
+    input{
+        border:0;
+        outline: none;
+
+        display: none;
+    }
+    .icon{
+        svg{
+            width: 1.5rem;
+        }
+    }
+}
